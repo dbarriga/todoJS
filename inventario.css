@@ -1,0 +1,65 @@
+body {
+    background-color: #469fbc;
+    text-align: center;
+    padding-top:100px;
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+
+ul {
+    width: 80%;
+    list-style: none;
+    padding: 0 10%;
+}
+li {
+    width: 100%;
+    background-color: #6ab7ca;
+    height:30px;
+    padding:20px 20px 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: #275d6e 2px solid;
+    color: white;
+}
+
+.delete {
+    float:right;
+    cursor: pointer;
+    color: #275d6e;
+    font-weight: bold;
+}
+.list_text {
+    cursor: pointer;
+    float:left;
+    font-weight: bold;
+}
+#todo_input {
+    width:80%;
+    height:35px;
+    border-radius: 5px;
+}
+
+#button_add{
+    width:50px;
+    height:30px;
+    border-radius: 5px;
+    margin-left:5px;
+    background-color: #275d6e;
+    color: #469fbc;
+    border: none;
+}
